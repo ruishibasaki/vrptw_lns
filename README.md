@@ -1,9 +1,12 @@
-# flotesApp
+# vrptw_lns
+C++ implementation of a Large Neighborhood Search metaheuristic for the Vehicle Routing Problem with Time-Windows
 
-This app is developped for Linux operating systems. To compile, go to the "main" repository in the Terminal and type command ``make``.
-
-To launch the program, type ``./flotesApp``. Make sure the instances files ("instanceLocX.nx", X in {1..5}) are located in the "instances" folder
-
-## Input data
-Instances  read Solomon instances:
-http://web.cba.neu.edu/~msolomon/problems.htm
+```bash
+mkdir bin
+cd main
+make 
+```
+run:
+```bash
+./vrp_lns ../solomon/c101.txt 
+```
