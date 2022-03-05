@@ -1,0 +1,15 @@
+instance_values_gen/instance_values_gen
+.o
+*.o
+*.dat
+bin/*
+*.geojson
+greedy_heuristic/greedy_heuristic
+main/flotesApp
+*.json
+*.html
+*/flotesTranslator
+*.lp
+*flotesCplexSolver
+*.txt
+results/*
